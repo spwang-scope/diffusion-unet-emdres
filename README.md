@@ -1,1 +1,1 @@
-![Conditional Diffusion](val_result.jpg)
+![Unconditional Diffusion](val_result.jpg)
