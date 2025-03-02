@@ -22,7 +22,7 @@ def arg_parser(parser):
 
 def add_gaussian_noise(img, ratio):
     noise = torch.randn_like(img)
-    return img + ratio*noise
+    return 0.9*img + ratio*noise
 
 def main():
     # Set device

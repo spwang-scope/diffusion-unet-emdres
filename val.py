@@ -59,7 +59,10 @@ def main():
                 axes[num, i].imshow(x.cpu().squeeze(0).squeeze(0), cmap='gray')
                 axes[num, i].axis('off')
         plt.show()
-        fig.savefig('val_result.png')
+        if args.cond:
+            fig.savefig('val_result-cond.png')
+        else:
+            fig.savefig('val_result.png')
 
 if __name__ == "__main__":
     parser = ArgumentParser()
