@@ -81,11 +81,3 @@ class UNet(nn.Module):
         
         output = torch.sigmoid(self.final_conv(c9))
         return output
-
-# Example usage
-if __name__ == "__main__":
-    model = UNet()
-    print(model)
-    x = torch.randn(1, 3, 128, 128)  # Batch size 1, 3-channel input, 128x128 image
-    y = model(x)
-    print(y.shape)  # Expected output shape: (1, 1, 128, 128)
