@@ -7,8 +7,8 @@
 - no classifier for adversarial learning
 - rope embedding for diffusion timestep 
   
-![Unconditional Diffusion](val_result.png)
-![Conditional Diffusion](val_result-cond.png)
+#![Unconditional Diffusion](val_result.png)
+#![Conditional Diffusion](val_result-cond.png)
 
 # Discussion:
 - artifacts on output (small circles and strikes), probably due to inefficient diffusion step
